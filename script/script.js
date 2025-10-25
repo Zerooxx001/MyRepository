@@ -1,5 +1,5 @@
-const boton = document.getElementById('mostrar-mensaje');
-const cuadro = document.getElementById('cuadro-flotante');
+const boton = document.getElementsByClassName('mostrar-mensaje');
+const cuadro = document.getElementsByClassName('cuadro-flotante');
 
 boton.addEventListener('click', () => {
     if (cuadro.style.display === 'none' || cuadro.style.display === '') {
