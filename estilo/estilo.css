@@ -2,6 +2,13 @@ body {
     background-image: url("https://imgs.search.brave.com/5fu5czcEbpIUUIaM2GaM_f634JWHariQHkUcPK-TjAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQx/MzM3MzE1OC9lcy9m/b3RvL2NsZWFuLXN0/dWRpby1iYWNrZHJv/cC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9UGNQZFRJVFJF/TkgwVjg5MzNrN1hS/MW05ejFHLV9FXy1S/cTctbjlQVXVkOD0");
     background-repeat: no-repeat;
     background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: Arial;
+   
+   
    }
    .Tarjeta{
        background-color: rgb(255, 255, 255);
@@ -12,8 +19,6 @@ body {
        width: 250px;
        text-decoration: none;
        color: rgb(0, 0, 0);
-       text-align: center;
-       margin-top: 200px;
    }
    .Tarjeta h1{
     color: rgb(0, 110, 255);
@@ -33,21 +38,17 @@ body {
    background-color: rgb(0, 119, 255);
    padding: 8px 12px;
    border-radius: 20px;
-   margin-right: 10px;
-   margin-left: 10px;
    }
 .mostrar-mensaje {
     background-color: rgb(0, 110, 255);
     color: black;
     padding: 8px 12px;
     border-radius: 20px;
+    margin-top: 10px;
     text-decoration: none;
     display: inline-block;
 }
 .cuadro-flotante {
-    background-color: gray;
-    color: black;
-    padding: 50px;
-    text-align: center;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0, 0);
+    background-color: rgb(211, 210, 210);
+    border-radius: 10px;
 }
