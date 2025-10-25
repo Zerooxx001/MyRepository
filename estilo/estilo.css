@@ -44,8 +44,10 @@ body {
     padding: 8px 12px;
     border-radius: 20px;
     text-decoration: none;
+    text-align: center;
 }
 .cuadro-flotante {
     background-color: rgb(211, 210, 210);
     border-radius: 10px;
+    text-align: center;
 }
