@@ -1,5 +1,5 @@
-const boton = document.querySelector('mostrar-mensaje');
-const cuadro = document.querySelector('cuadro-flotante');
+const boton = document.querySelector('.mostrar-mensaje');
+const cuadro = document.querySelector('.cuadro-flotante');
 
 boton.addEventListener('click', () => {
     if (cuadro.style.display === 'none' || cuadro.style.display === '') {
