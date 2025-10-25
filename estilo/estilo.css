@@ -2,7 +2,6 @@ body {
     background-image: url("https://imgs.search.brave.com/5fu5czcEbpIUUIaM2GaM_f634JWHariQHkUcPK-TjAg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQx/MzM3MzE1OC9lcy9m/b3RvL2NsZWFuLXN0/dWRpby1iYWNrZHJv/cC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9UGNQZFRJVFJF/TkgwVjg5MzNrN1hS/MW05ejFHLV9FXy1S/cTctbjlQVXVkOD0");
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
    }
    .Tarjeta{
        background-color: rgb(255, 255, 255);
@@ -13,6 +12,8 @@ body {
        width: 250px;
        text-decoration: none;
        color: rgb(0, 0, 0);
+       text-align: center;
+       margin-top: 200px;
    }
    .Tarjeta h1{
     color: rgb(0, 110, 255);
