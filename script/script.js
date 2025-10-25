@@ -11,8 +11,7 @@ boton.addEventListener('click', () => {
 
 document.addEventListener('click', (e) => {
     if (!cuadro.contains(e.target) && !boton.contains(e.target)) {
-        cuadro.style.display = 'none';async () => {
+        cuadro.style.display = 'none';
             
-        }
         }
 });
